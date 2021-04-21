@@ -1,0 +1,35 @@
+Bom dia, 
+
+Acredito que hoje é um excelente dia para "codar"!
+
+
+
+Hoje na missão espacial com a Rocketseat eu já aprendi na trilha do NodeJS
+
+
+
+os comandos yarn init, yarn add
+
+package.json - script e visualizar dependências
+
+um pouco sobre dependências do Node
+
+
+
+conceitos do que é o NodeJS
+
+conceitos do que é uma API, um pouco do conceito cliente servidor
+
+conceitos do que é um TypeScript e seus beneficios
+
+criei uma rota com do verbo HTTP GET e visualizei seu efeito no navegador
+
+criei uma rota com do verbo HTTP POST e visualizei seu efeito no aplicativo Insomnia
+
+
+
+a Recode já havia abordado esse assunto então o NLW#5 é uma excelente oportunidade de colocar em prática.
+
+
+
+Nesse primeiro momento de aprendizado é assim mesmo eu tenho que ser orientado e não tenho vergonha nenhuma disso! Tenho muito orgulho de ter toda essa galera maravilhosa me apoiando e incentivando para o sucesso!
