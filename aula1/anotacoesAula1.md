@@ -2,7 +2,7 @@ NLW#5 - Next Week Level
 
 # Dia 1 - Fundamentos do NodeJS 
 
-Educadora | Dani
+Educadora | Daniele Evangelista - Dani
 
 Aluno | Felipe Dantas dos Nascimento
 

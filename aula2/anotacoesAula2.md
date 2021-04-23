@@ -2,7 +2,7 @@ NLW#5 - Next Week Level
 
 # Dia 2 - Iniciando com banco de dados
 
-Educadora | Dani
+Educadora | Daniele Evangelista - Dani
 
 Aluno | Felipe Dantas dos Nascimento
 

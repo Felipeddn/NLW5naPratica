@@ -1,16 +1,8 @@
-// no TypeScript ele pede a instalação dos tipos da biblioteca, para isso usamos o comando yarn add @types/express -D
+import { http } from './http';
+import './websocket/client';
 
-import express from "express"; 
-// o node não entende essa sintaxe ainda para resolver isso usamos o comando yarn add ts-node-dev -D
-
-import './database';
-import { routes } from './routes';
-
-const app = express();
-
-app.use(express.json());
-
-app.use(routes);
+//o app.listen teve que ser alterado por conta do websocket e ficou http.use
+http.listen(3333, () => console.log("Server is running in 3333"));
 
 //O JavaScript por padrão importa arquivos index em um diretório, esse arquivo está criando a conexão com o banco de dados
 
@@ -29,6 +21,6 @@ app.use(routes);
 //     return response.json({message : "Usuário salvo com sucesso!"})
 // })
 
-app.listen(3333, () => console.log("Server is running in 3333"));
+
 
 
