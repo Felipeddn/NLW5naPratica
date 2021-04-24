@@ -13,7 +13,7 @@ class ConnectionsService {
     private connectionsRepository : Repository<Connection>;
     
     constructor(){
-        this.connectionsRepository = getCustomRepository(ConnectionsRepository)
+        this.connectionsRepository = getCustomRepository(ConnectionsRepository) //aqui
     }
 
     async create({socket_id, user_id, admin_id, id}: IConnectionsCreate){
@@ -35,6 +35,15 @@ class ConnectionsService {
         })
 
         return connection;
+    }
+
+    async findAllWithoutAdmin(){
+        const connections = await this.connectionsRepository.find({
+            where: { admin_id: null},
+            relations: ["user"]
+        });
+
+        return connections;
     }
 }
 

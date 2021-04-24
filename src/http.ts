@@ -20,6 +20,8 @@ app.set("view engine", "html");
 
 app.get("/pages/client", (request, response) => response.render("html/client.html"))
 
+app.get("/pages/admin", (request, response) => response.render("html/admin.html"))
+
 // criando o protocolo HTTP 
 const http = createServer(app);
 // criando o protocolo WS

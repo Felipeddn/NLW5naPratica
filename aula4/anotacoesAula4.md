@@ -17,7 +17,7 @@ Aluno | Felipe Dantas dos Nascimento
 * Como a gente utiliza 
 * Qual a diferença entre ele e um protocolo http
 - Entendendo o protocolo http whismical 
-[] O que é WebSocket?
+[x] O que é WebSocket?
 É um protocolo que mantém uma conexão entre o servidor e o cliente, que gera um id dessa conexão.
 [] Instalando as dependências na aplicação
 https://www.npmjs.com/package/socket.io
@@ -54,16 +54,16 @@ Um treinamento que exige um investimento financeiro mas entrega muito conteúdo 
 
 ## Comandos
 * Executar servidor 
-yarn dev
+**yarn dev**
 
 * Dependências socket.io
-yarn add socket.io || npm install socket.io
+**yarn add socket.io** || **npm install socket.io**
 
 * Tipagens da dependencia socket.io
-yarn add @types/socket.io
+**yarn add @types/socket.io**
 
-* dependencias para executar o front em html
-yarn add ejs || npm install ejs
+* dependencias para executar o front em html - view engine
+**yarn add ejs** || **npm install ejs**
 
 * comando para instalar o socket.io no lado do cliente
-yarn add socket.io-client
+**yarn add socket.io-client**

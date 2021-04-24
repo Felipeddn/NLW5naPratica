@@ -1,5 +1,6 @@
 import { http } from './http';
 import './websocket/client';
+import './websocket/admin';
 
 //o app.listen teve que ser alterado por conta do websocket e ficou http.use
 http.listen(3333, () => console.log("Server is running in 3333"));
