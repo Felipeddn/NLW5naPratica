@@ -31,17 +31,25 @@ simular uma comunicação usuario e atendente
 [x] Concluir página de atendimento
 mustache: um modelo para usar variaveis e sobreescrever um arquivo html com dados do backend
 https://mustache.github.io/
-[] Criar os eventos para atendimento
-[] Concluir página de cliente 
-[] Criar evento para cliente 
-[] Adicionar admin a conexão
-[] Como andar milha extra?
-[] Recap do que foi aprendido
-[] Comunidade (Feedback e participação)
-[] Código/senha
-[] Encerramento
+[x] Criar os eventos para atendimento
+[x] Concluir página de cliente 
+[x] Criar evento para cliente 
+[x] Adicionar admin a conexão
+[x] Como andar milha extra?
+[x] Recap do que foi aprendido
+[x] Comunidade (Feedback e participação)
+[x] Código/senha
+[x] Encerramento
+
+código 
+missaocumprida
 
 ## Atalhos
 
-
 ## Comandos
+
+## projetos originais para correções e conferencias
+* Elias
+https://github.com/EliasGcf/nlw-05-nodejs/tree/d4e58778af5ac6deeaf02722cdd9fbb6cc1ca42b/src
+* Dani
+https://github.com/danileao/chatty_nlw05
