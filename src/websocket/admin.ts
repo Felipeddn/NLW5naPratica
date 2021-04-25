@@ -32,7 +32,7 @@ io.on("connect", async (socket) => {
 
         io.to(socket_id).emit("admin_send_to_client", {
             text,
-            socket_id: socket_id,
+            socket_id: socket.id,
         })
     });
 
