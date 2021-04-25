@@ -33,13 +33,15 @@ io.on("connect", (socket) => {
         } else {
             user_id = userExists.id
 
+            await connectionsService.removeAdminID(user_id);
+
             const connection = await connectionsService.findByUserId(userExists.id);
 
             if (!connection) {
                 await connectionsService.create({
                     socket_id,
                     user_id: userExists.id
-                })
+                }) 
             }else{
                 connection.socket_id = socket_id;
                 await connectionsService.create(connection);
